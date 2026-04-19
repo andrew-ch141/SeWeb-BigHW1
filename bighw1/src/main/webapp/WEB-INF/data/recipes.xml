@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- File: recipes.xml — Sample data: 22 recipes + 1 user (manual entry for HW). --><cookbook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipes.xsd">
+          
+  
+  
+  
+  <users>
+                    
+    
+    
+    
+    <user id="1">
+            
+      <firstName>andrei</firstName>
+            
+      <lastName>testt</lastName>
+            
+      <cookingSkill>Beginner</cookingSkill>
+            
+      <preferredCuisine>Spanish</preferredCuisine>
+          
+    </user>
+                  
+  
+  
+    
+    <user id="2">
+            
+      <firstName>qwr</firstName>
+            
+      <lastName>qwe</lastName>
+            
+      <cookingSkill>Intermediate</cookingSkill>
+            
+      <preferredCuisine>Middle Eastern</preferredCuisine>
+          
+    </user>
+        
+    <user id="3">
+            
+      <firstName>stefan</firstName>
+            
+      <lastName>test</lastName>
+            
+      <cookingSkill>Intermediate</cookingSkill>
+            
+      <preferredCuisine>Middle Eastern</preferredCuisine>
+          
+    </user>
+      
+  </users>
+          
+  
+  
+  
+  <recipes>
+                    
+    
+    
+    
+    <recipe id="1">
+                              
+      
+      
+      
+      <title>One-pan autumn chicken</title>
+                              
+      
+      
+      
+      <cuisine>Italian</cuisine>
+                              
+      
+      
+      
+      <cuisine>Mediterranean</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="2">
+                              
+      
+      
+      
+      <title>Butternut squash soup</title>
+                              
+      
+      
+      
+      <cuisine>French</cuisine>
+                              
+      
+      
+      
+      <cuisine>European</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="3">
+                              
+      
+      
+      
+      <title>Spiced lentil stew</title>
+                              
+      
+      
+      
+      <cuisine>Indian</cuisine>
+                              
+      
+      
+      
+      <cuisine>Middle Eastern</cuisine>
+                              
+      
+      
+      
+      <difficulty>Intermediate</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="4">
+                              
+      
+      
+      
+      <title>Roasted root vegetable traybake</title>
+                              
+      
+      
+      
+      <cuisine>British</cuisine>
+                              
+      
+      
+      
+      <cuisine>European</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="5">
+                              
+      
+      
+      
+      <title>Harissa chickpea bowls</title>
+                              
+      
+      
+      
+      <cuisine>North African</cuisine>
+                              
+      
+      
+      
+      <cuisine>Mediterranean</cuisine>
+                              
+      
+      
+      
+      <difficulty>Intermediate</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="6">
+                              
+      
+      
+      
+      <title>Mushroom risotto</title>
+                              
+      
+      
+      
+      <cuisine>Italian</cuisine>
+                              
+      
+      
+      
+      <cuisine>European</cuisine>
+                              
+      
+      
+      
+      <difficulty>Advanced</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="7">
+                              
+      
+      
+      
+      <title>Thai-style pumpkin curry</title>
+                              
+      
+      
+      
+      <cuisine>Thai</cuisine>
+                              
+      
+      
+      
+      <cuisine>Asian</cuisine>
+                              
+      
+      
+      
+      <difficulty>Intermediate</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="8">
+                              
+      
+      
+      
+      <title>Apple and sage pork chops</title>
+                              
+      
+      
+      
+      <cuisine>American</cuisine>
+                              
+      
+      
+      
+      <cuisine>European</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="9">
+                              
+      
+      
+      
+      <title>Gnocchi with brown butter</title>
+                              
+      
+      
+      
+      <cuisine>Italian</cuisine>
+                              
+      
+      
+      
+      <cuisine>European</cuisine>
+                              
+      
+      
+      
+      <difficulty>Advanced</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="10">
+                              
+      
+      
+      
+      <title>Miso roasted aubergine</title>
+                              
+      
+      
+      
+      <cuisine>Japanese</cuisine>
+                              
+      
+      
+      
+      <cuisine>Asian</cuisine>
+                              
+      
+      
+      
+      <difficulty>Intermediate</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="11">
+                              
+      
+      
+      
+      <title>Chilli con carne (budget)</title>
+                              
+      
+      
+      
+      <cuisine>Mexican</cuisine>
+                              
+      
+      
+      
+      <cuisine>American</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="12">
+                              
+      
+      
+      
+      <title>Greek-style baked beans</title>
+                              
+      
+      
+      
+      <cuisine>Greek</cuisine>
+                              
+      
+      
+      
+      <cuisine>Mediterranean</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="13">
+                              
+      
+      
+      
+      <title>Korean-style beef rice bowls</title>
+                              
+      
+      
+      
+      <cuisine>Korean</cuisine>
+                              
+      
+      
+      
+      <cuisine>Asian</cuisine>
+                              
+      
+      
+      
+      <difficulty>Intermediate</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="14">
+                              
+      
+      
+      
+      <title>Spinach and ricotta cannelloni</title>
+                              
+      
+      
+      
+      <cuisine>Italian</cuisine>
+                              
+      
+      
+      
+      <cuisine>European</cuisine>
+                              
+      
+      
+      
+      <difficulty>Advanced</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="15">
+                              
+      
+      
+      
+      <title>Smoky bean and kale soup</title>
+                              
+      
+      
+      
+      <cuisine>Spanish</cuisine>
+                              
+      
+      
+      
+      <cuisine>Mediterranean</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="16">
+                              
+      
+      
+      
+      <title>Teriyaki salmon tray bake</title>
+                              
+      
+      
+      
+      <cuisine>Japanese</cuisine>
+                              
+      
+      
+      
+      <cuisine>Asian</cuisine>
+                              
+      
+      
+      
+      <difficulty>Intermediate</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="17">
+                              
+      
+      
+      
+      <title>Shepherd's pie with seasonal veg</title>
+                              
+      
+      
+      
+      <cuisine>British</cuisine>
+                              
+      
+      
+      
+      <cuisine>European</cuisine>
+                              
+      
+      
+      
+      <difficulty>Intermediate</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="18">
+                              
+      
+      
+      
+      <title>Vegetable tagine</title>
+                              
+      
+      
+      
+      <cuisine>Moroccan</cuisine>
+                              
+      
+      
+      
+      <cuisine>North African</cuisine>
+                              
+      
+      
+      
+      <difficulty>Intermediate</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="19">
+                              
+      
+      
+      
+      <title>Quick tomato pasta</title>
+                              
+      
+      
+      
+      <cuisine>Italian</cuisine>
+                              
+      
+      
+      
+      <cuisine>European</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="20">
+                              
+      
+      
+      
+      <title>Beef bourguignon (simplified)</title>
+                              
+      
+      
+      
+      <cuisine>French</cuisine>
+                              
+      
+      
+      
+      <cuisine>European</cuisine>
+                              
+      
+      
+      
+      <difficulty>Advanced</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="21">
+                              
+      
+      
+      
+      <title>Coconut dal with spinach</title>
+                              
+      
+      
+      
+      <cuisine>Indian</cuisine>
+                              
+      
+      
+      
+      <cuisine>Asian</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                    
+    
+    
+    
+    <recipe id="22">
+                              
+      
+      
+      
+      <title>Stuffed peppers with couscous</title>
+                              
+      
+      
+      
+      <cuisine>Mediterranean</cuisine>
+                              
+      
+      
+      
+      <cuisine>Middle Eastern</cuisine>
+                              
+      
+      
+      
+      <difficulty>Beginner</difficulty>
+                            
+    
+    
+    
+    </recipe>
+                  
+    
+    
+    
+    <recipe id="23">
+                        
+      
+      
+      <title>test</title>
+                        
+      
+      
+      <cuisine>Indian</cuisine>
+                        
+      
+      
+      <cuisine>Moroccan</cuisine>
+                        
+      
+      
+      <difficulty>Advanced</difficulty>
+                      
+    
+    
+    </recipe>
+              
+  
+  
+    <recipe id="24">
+      <title>Peperonni</title>
+      <cuisine>Italian</cuisine>
+      <cuisine>European</cuisine>
+      <difficulty>Beginner</difficulty>
+    </recipe>
+  </recipes>
+        
+
+
+
+</cookbook>

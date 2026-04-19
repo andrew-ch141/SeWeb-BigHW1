@@ -1,0 +1,17 @@
+com\semweb\recipes\SkillLevel.class
+com\semweb\recipes\RecipeXmlStore.class
+com\semweb\recipes\web\RecipeDetailServlet.class
+com\semweb\recipes\web\CuisineFilterServlet.class
+com\semweb\recipes\web\AddRecipeServlet.class
+com\semweb\recipes\CuisineOptions.class
+com\semweb\recipes\web\RecipeXslServlet.class
+com\semweb\recipes\web\RecommendFullServlet.class
+com\semweb\recipes\XmlDataKeys.class
+com\semweb\recipes\web\RecipeDataContextListener.class
+com\semweb\recipes\RecipeQueryService.class
+com\semweb\recipes\web\WebAppSupport.class
+com\semweb\recipes\web\UserEditServlet.class
+com\semweb\recipes\web\RecommendSkillServlet.class
+com\semweb\recipes\web\RecipeListServlet.class
+com\semweb\recipes\RecipeMutationService.class
+com\semweb\recipes\XsltService.class

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File: recipes.xsd — XML Schema for cookbook data (assignment requirement). -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:simpleType name="SkillOrDifficulty">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Beginner"/>
+      <xs:enumeration value="Intermediate"/>
+      <xs:enumeration value="Advanced"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="CuisineName">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="2"/>
+      <xs:maxLength value="64"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="cookbook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="users" type="UsersType"/>
+        <xs:element name="recipes" type="RecipesType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="UsersType">
+    <xs:sequence>
+      <xs:element name="user" type="UserType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="UserType">
+    <xs:sequence>
+      <xs:element name="firstName" type="xs:string"/>
+      <xs:element name="lastName" type="xs:string"/>
+      <xs:element name="cookingSkill" type="SkillOrDifficulty"/>
+      <xs:element name="preferredCuisine" type="CuisineName"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="RecipesType">
+    <xs:sequence>
+      <xs:element name="recipe" type="RecipeType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RecipeType">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="cuisine" type="CuisineName" minOccurs="2" maxOccurs="2"/>
+      <xs:element name="difficulty" type="SkillOrDifficulty"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+</xs:schema>

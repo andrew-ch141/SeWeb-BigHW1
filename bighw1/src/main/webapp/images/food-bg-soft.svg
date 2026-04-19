@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File: food-bg-soft.svg — Larger, softer shapes for a second background layer. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280">
+  <circle cx="200" cy="60" r="45" fill="#2d6a4f" opacity="0.06"/>
+  <circle cx="70" cy="180" r="38" fill="#d4a574" opacity="0.08"/>
+  <ellipse cx="220" cy="200" rx="35" ry="28" fill="#c17817" opacity="0.05" transform="rotate(-15 220 200)"/>
+  <path fill="#2d6a4f" opacity="0.05" d="M40 40 Q90 20 120 70 Q80 100 40 40z"/>
+</svg>

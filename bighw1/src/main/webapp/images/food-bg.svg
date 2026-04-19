@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File: food-bg.svg — Subtle repeating tile: abstract leaves & fruit shapes (original, not from other sites). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      .sage { fill: #2d6a4f; }
+      .warm { fill: #c17817; }
+      .cream { fill: #d4a574; }
+    </style>
+  </defs>
+  <!-- Organic leaf cluster -->
+  <path class="sage" opacity="0.22" d="M78 12C62 28 54 52 64 66c14-8 24-24 22-42-2-8-5-10-8-12z"/>
+  <path class="sage" opacity="0.18" transform="translate(95 8) rotate(35)" d="M0 0C-10 14-12 32 2 38 12 24 14 10 8 0z"/>
+  <!-- “Berry” dots -->
+  <circle class="sage" opacity="0.2" cx="28" cy="118" r="6"/>
+  <circle class="sage" opacity="0.16" cx="132" cy="104" r="5"/>
+  <circle class="cream" opacity="0.18" cx="48" cy="42" r="9"/>
+  <!-- Warm round shapes (citrus / bread suggestion) -->
+  <ellipse class="warm" opacity="0.14" cx="120" cy="38" rx="16" ry="12" transform="rotate(-20 120 38)"/>
+  <path class="warm" opacity="0.12" d="M18 78 Q8 95 22 108 Q38 98 32 82 Q26 72 18 78z"/>
+  <!-- Herb stem hint -->
+  <path class="sage" opacity="0.15" fill="none" stroke="#2d6a4f" stroke-width="1.2" d="M110 120 Q125 95 118 72"/>
+</svg>
